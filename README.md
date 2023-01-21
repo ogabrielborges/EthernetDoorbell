@@ -5,6 +5,10 @@ Via IFTTT voce pode escolher qual ação vai ser executada ao pressionar o botã
 
 Note que o projeto utiliza um Arduino Uno R3 Italiano e um Ethernet Shield W5100 Acoplado
 
+Dependencias:
+- [SPI](https://github.com/arduino/ArduinoCore-avr/tree/master/libraries/SPI "Biblioteca SPI padrão da Arduino")
+- [Ethernet](https://github.com/arduino-libraries/Ethernet "Biblioteca Ethernet  padrão da Arduino")
+
 Materiais para a montagem do esquema:
 - Arduino Uno
 - Ethernet Shield (Compatível com a biblioteca Ethernet da Arduino)
