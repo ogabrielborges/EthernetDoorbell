@@ -1,6 +1,7 @@
 EthernetDoorbell é um código muito rápido que envia para o IFTTT uma requisição web em método POST após um botão ser pressionado!
+Foi criado apenas para alimentar uma idéia de utilizar hardwares que eu ja tinha em meu alcance, para fazer uma campainha em um lugar remoto que tem um ponto de internet via cabo mas não tem uma rede wifi com um bom sinal para um ESP8266 se conectar!
 
-Via IFTTT voce pode escolher qual ação vai ser executada ao pressionar o botão (WebHook)
+Via IFTTT voce pode escolher qual ação vai ser executada ao pressionar o botão (Utilizei um [Webhook IFTTT](https://ifttt.com/maker_webhooks))
 
 
 Note que o projeto utiliza um Arduino Uno R3 Italiano e um Ethernet Shield W5100 Acoplado
