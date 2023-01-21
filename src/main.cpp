@@ -19,7 +19,7 @@
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
 // Endereço IP do Arduino na rede
-IPAddress ip(192, 168, 29, 49);
+IPAddress ip(192, 168, 0, 1);
 
 // Variável para armazenar o estado do botão
 int buttonState = 0;
@@ -47,7 +47,7 @@ void loop() {
     // Conecta ao servidor IFTTT
     if (client.connect("maker.ifttt.com", 80)) {
       // Envia a requisição web em método post
-      client.print("POST /trigger/criado/with/key/mR00EAxO8DKGV-E8ugvcfI4kx6D82EqHDT-jUnAdcCC HTTP/1.1\r\n");
+      client.print("POST /trigger/EVENT-NAME/with/key/YOUR-APP-KEY-IFTTT HTTP/1.1\r\n");
       client.print("Host: maker.ifttt.com\r\n");
       client.print("Content-Type: application/json\r\n");
       client.print("Content-Length: 0\r\n");
